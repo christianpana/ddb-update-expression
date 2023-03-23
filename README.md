@@ -9,6 +9,9 @@ The package offers two distinct modes:
 
 While `ddb-update-expression` enables updates to individual values within nested objects, it does not support deleting individual values.
 
+# Demo
+https://codesandbox.io/p/sandbox/ddb-update-expression-example-1mwwcz?file=%2Fsrc%2Findex.js
+
 # Installation
 To install the ddb-update-expression package, use the following command:
 ```bash
