@@ -1,0 +1,36 @@
+{
+  "name": "ddb-update-expression",
+  "version": "0.1.0",
+  "description": "Simplifies generating update expressions for DynamoDB, supporting both non-nested and nested items, with fine-grained updates for deeply nested values.",
+  "files": [
+    "dist/"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "types/ddb-update-expression.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianpana/ddb-update-expression.git"
+  },
+  "keywords": ["aws","dynamodb"],
+  "author": "christianpana.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/christianpana/ddb-update-expression/issues"
+  },
+  "homepage": "https://github.com/christianpana/ddb-update-expression#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
