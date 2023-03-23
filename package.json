@@ -1,6 +1,6 @@
 {
   "name": "ddb-update-expression",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simplifies generating update expressions for DynamoDB, supporting both non-nested and nested items, with fine-grained updates for deeply nested values.",
   "files": [
     "dist/"
@@ -21,7 +21,10 @@
     "type": "git",
     "url": "git+https://github.com/christianpana/ddb-update-expression.git"
   },
-  "keywords": ["aws","dynamodb"],
+  "keywords": [
+    "aws",
+    "dynamodb"
+  ],
   "author": "christianpana.com",
   "license": "Apache-2.0",
   "bugs": {
